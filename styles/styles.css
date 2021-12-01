@@ -304,3 +304,11 @@ footer {
     max-width: 100px;
     margin: 0 auto;
 }
+.content-page {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.content-stuff {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
