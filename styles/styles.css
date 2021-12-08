@@ -71,7 +71,6 @@ nav a {
     padding: 5px;
     margin-left: auto;
     margin-right: auto;
-
 }
 .home-msg-info {
     grid-column: 2/3;
@@ -287,6 +286,7 @@ footer {
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
+    line-height: 20px;
 }
 .menu-food-header {
     text-align: center;
@@ -311,4 +311,34 @@ footer {
 .contact-stuff {
     display: grid;
     grid-template-rows: auto 1fr auto;
+}
+.event-image-page {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6CCEEF;
+    padding: 5px;
+}
+.event-button-page {
+    padding: 10px;
+    color: #000000;
+    border-radius: 15px;
+    background-color: #6CCEEF;
+    max-width: 150px;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    
+}
+.event-button-page:hover {
+    background-color: #7D25BB;
+    color: #EBEBEB;
+}
+.event-info {
+    text-align: center;
+    font-size: 20px;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
 }
